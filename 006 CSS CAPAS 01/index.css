@@ -1,8 +1,16 @@
 
-.title1 {
+/* h1 titulo 1 */
+#title1 {
     background-color: chartreuse;
+    display: inline-block; /* para que aparezca en linea y no la ocupe entera */
 }
 
-.title2 {
+#title2 {
     background-color: brown;
+    display: inline-block;
+}
+
+#title3 {
+    background-color: rgb(174, 255, 0);
+    display: inline-block;
 }

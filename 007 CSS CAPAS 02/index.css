@@ -1,8 +1,42 @@
-
-.title1 {
-    background-color: chartreuse;
+body{
+    background-color: cadetblue;
 }
 
-.title2 {
-    background-color: brown;
+#title{
+    background-color: rgb(204, 255, 0);
+    border: 1px solid black;  
+    text-align: center; 
+}
+
+#oferta{
+    color: rgb(255, 0, 0);
+    background-color: blanchedalmond;
+    display: inline-block;
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 10px
+}
+
+#info{
+    color: rgb(0, 0, 0);
+}
+
+#table{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#card{
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+#card img{
+    border: 1px solid black;
+    border-radius: 10px;
+    
 }

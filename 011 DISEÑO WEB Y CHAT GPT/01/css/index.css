@@ -1,0 +1,99 @@
+/* General Styles - Mobile First */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+    header {
+        text-align: left;
+        padding: 1rem 2rem;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    main {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    section {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #e8e8e8;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav ul {
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}

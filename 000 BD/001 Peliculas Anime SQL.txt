@@ -1,0 +1,35 @@
+/// 1º
+
+CREATE TABLE peliculas (
+    id SERIAL PRIMARY KEY,
+    titulo VARCHAR(100) NOT NULL,
+    director VARCHAR(100),
+    anio INT,
+    genero VARCHAR(50)
+);
+
+/// 2º
+
+INSERT INTO peliculas (titulo, director, anio, genero) VALUES
+('El Viaje de Chihiro', 'Hayao Miyazaki', 2001, 'Fantasía'),
+('Akira', 'Katsuhiro Otomo', 1988, 'Ciencia Ficción'),
+('Your Name', 'Makoto Shinkai', 2016, 'Romance'),
+('La Tumba de las Luciérnagas', 'Isao Takahata', 1988, 'Drama'),
+('Mi Vecino Totoro', 'Hayao Miyazaki', 1988, 'Fantasía'),
+('Perfect Blue', 'Satoshi Kon', 1997, 'Suspenso'),
+('Ghost in the Shell', 'Mamoru Oshii', 1995, 'Ciencia Ficción'),
+('Princesa Mononoke', 'Hayao Miyazaki', 1997, 'Aventura'),
+('Paprika', 'Satoshi Kon', 2006, 'Ciencia Ficción'),
+('Weathering with You', 'Makoto Shinkai', 2019, 'Romance'),
+('Nausicaä del Valle del Viento', 'Hayao Miyazaki', 1984, 'Aventura'),
+('El Niño y la Bestia', 'Mamoru Hosoda', 2015, 'Fantasía'),
+('A Silent Voice', 'Naoko Yamada', 2016, 'Drama'),
+('El Castillo Ambulante', 'Hayao Miyazaki', 2004, 'Fantasía'),
+('Redline', 'Takeshi Koike', 2009, 'Acción'),
+('The Garden of Words', 'Makoto Shinkai', 2013, 'Romance');
+
+
+/// 3º
+
+
+SELECT * FROM PELICULAS;

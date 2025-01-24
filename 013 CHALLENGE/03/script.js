@@ -1,4 +1,18 @@
-const peliculas = (await fetch("peliculas.json"));
+function cargarPeliculas() {
+    fetch("./peliculas.json") // Ruta del archivo JSON
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            peliculas = data; // Asignar los datos cargados a la variable
+            cargarGeneros();
+            generarBotonesAcceso();
+            mostrarPeliculas(peliculas); // Mostrar todas las películas al cargar
+        })
+        .catch(error => {
+            console.error("Error:", error);
+        });
+}
 
 
 // Referencias al DOM
@@ -8,6 +22,7 @@ const accesosRapidos = document.getElementById("accesos-rapidos");
 
 // Inicializar la página
 function inicializar() {
+    cargarPeliculas();
     cargarGeneros();
     mostrarPeliculas(peliculas);
     generarBotonesAcceso();

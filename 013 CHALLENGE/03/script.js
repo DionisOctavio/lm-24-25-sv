@@ -1,35 +1,4 @@
-const peliculas = [
-    { titulo: "El Rey León", genero: "Animación" },
-    { titulo: "Avengers: Endgame", genero: "Acción" },
-    { titulo: "Titanic", genero: "Romance" },
-    { titulo: "El Conjuro", genero: "Terror" },
-    { titulo: "Shrek", genero: "Animación" },
-    { titulo: "John Wick", genero: "Acción" },
-    { titulo: "El viaje de Chihiro", genero: "Fantasía" },
-    { titulo: "Akira", genero: "Ciencia ficción" },
-    { titulo: "Your Name", genero: "Romance" },
-    { titulo: "Ghost in the Shell", genero: "Ciencia ficción" },
-    { titulo: "Perfect Blue", genero: "Thriller psicológico" },
-    { titulo: "La princesa Mononoke", genero: "Fantasía" },
-    { titulo: "Mi vecino Totoro", genero: "Fantasía" },
-    { titulo: "El castillo ambulante", genero: "Fantasía" },
-    { titulo: "La tumba de las luciérnagas", genero: "Drama" },
-    { titulo: "A Silent Voice", genero: "Drama" },
-    { titulo: "Weathering with You", genero: "Romance" },
-    { titulo: "5 centímetros por segundo", genero: "Romance" },
-    { titulo: "Paprika", genero: "Thriller psicológico" },
-    { titulo: "Summer Wars", genero: "Ciencia ficción" },
-    { titulo: "El cuento de la princesa Kaguya", genero: "Fantasía" },
-    { titulo: "Redline", genero: "Acción" },
-    { titulo: "Vampire Hunter D: Bloodlust", genero: "Horror" },
-    { titulo: "Cowboy Bebop: The Movie", genero: "Acción" },
-    { titulo: "Kiki: Entregas a domicilio", genero: "Fantasía" },
-    { titulo: "Porco Rosso", genero: "Aventura" },
-    { titulo: "Jin-Roh: The Wolf Brigade", genero: "Thriller" },
-    { titulo: "Wolf Children", genero: "Drama" },
-    { titulo: "Sword of the Stranger", genero: "Acción" },
-    { titulo: "Promare", genero: "Acción" }
-];
+const peliculas = (await fetch("peliculas.json"));
 
 
 // Referencias al DOM

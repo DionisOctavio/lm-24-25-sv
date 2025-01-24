@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listado de Películas</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Películas y JSON</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Películas</h1>
-        <button id="mostrarPeliculas">Mostrar Películas</button>
+  <h1>Listado de Películas</h1>
 
-        <input type="text" id="nombrePelicula" placeholder="Nombre de la película">
-        <input type="button" id="nombreGenero" value="Buscar Genero" oneclick="mostrarGenero">
+  <div id="contenedor-peliculas">
+    <!-- Aquí se cargarán las películas desde el JSON -->
+  </div>
 
-        <ul id="listaPeliculas"></ul>
-    </div>
-    <script src="script.js"></script>
+  <button id="mostrar-titulos">Mostrar Solo Títulos</button>
+
+  <div id="contenedor-titulos">
+    <!-- Aquí se mostrarán solo los títulos -->
+  </div>
+
+  <button id ="mostrar-generos" onclick="mostrarGenero()">Mostrar Solo Generos</button>
+
+  <div id="contenedor-generos">
+    <!-- Aquí se mostrarán solo los títulos -->
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

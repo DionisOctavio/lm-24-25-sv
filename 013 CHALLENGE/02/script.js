@@ -1,42 +1,43 @@
+// Referencias a elementos del DOM
+const contenedorPeliculas = document.getElementById('contenedor-peliculas');
+const contenedorTitulos = document.getElementById('contenedor-titulos');
+const botonMostrarTitulos = document.getElementById('mostrar-titulos');
+const contenedorGeneros = document.getElementById('contenedor-generos');
 
-const peliculas = [
-    { titulo: "El Rey León", genero: "Animación", anio: 1994 },
-    { titulo: "Inception", genero: "Ciencia Ficción", anio: 2010 },
-    { titulo: "Titanic", genero: "Drama", anio: 1997 },
-    { titulo: "Matrix", genero: "Acción", anio: 1999 }
-];
+// Cargar el JSON y mostrar las películas
+fetch('peliculas.json')
+  .then((response) => response.json())
+  .then((data) => {
+    // Guardar el JSON en una variable global para reutilizar
+    window.peliculas = data;
 
-const botonMostrar = document.getElementById("mostrarPeliculas");
-const listaPeliculas = document.getElementById("listaPeliculas");
-
-// Función para pintar las películas en el DOM
-function pintarPeliculas() {
-    listaPeliculas.innerHTML = ""; 
-    for (let i = 0; i < peliculas.length; i++) {
-        const pelicula = peliculas[i];
-        const li = document.createElement("li");
-        li.textContent = `${pelicula.titulo} - ${pelicula.genero} (${pelicula.anio})`;
-        listaPeliculas.appendChild(li);
+    // Mostrar todas las películas
+    let htmlContent = '';
+    for (let i = 0; i < data.length; i++) {
+      htmlContent += `<p><strong>${data[i].titulo}</strong> - Año: ${data[i].año}, Género: ${data[i].genero}</p>`;
     }
-}
+    contenedorPeliculas.innerHTML = htmlContent;
+  });
 
-botonMostrar.addEventListener("click", pintarPeliculas);
+// Mostrar solo los títulos de las películas
+botonMostrarTitulos.addEventListener('click', () => {
+  if (!window.peliculas) return;
 
+  let htmlContent = '';
+  for (let i = 0; i < window.peliculas.length; i++) {
+    htmlContent += `<p>${window.peliculas[i].titulo}</p>`;
+  }
+  contenedorTitulos.innerHTML = htmlContent;
+});
 
+function mostrarGenero(){
+    const genero = prompt("Ingrese el genero de la pelicula");
 
-
-
-const nombreGenero = document.getElementById("nombreGenero");
-function pintarPeliculaDrama() {
-    listaPeliculas.innerHTML = "";
-    for (let i = 0; i < peliculas.length; i++) {
-        const pelicula = peliculas[i];
-        if (pelicula.genero === "Drama") {
-            const li = document.createElement("li");
-            li.textContent = `${pelicula.titulo} - ${pelicula.genero} (${pelicula.anio})`;
-            listaPeliculas.appendChild(li);
+    let htmlContent = '';
+    for (let i = 0; i < window.peliculas.length; i++) {
+        if(window.peliculas[i].genero === genero){
+            htmlContent += `<p>${window.peliculas[i].titulo}</p>`;
         }
     }
+    contenedorGeneros.innerHTML = htmlContent;
 }
-
-nombreGenero.addEventListener("click", pintarPeliculaDrama);

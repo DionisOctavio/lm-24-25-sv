@@ -3,6 +3,10 @@ const contenedorPeliculas = document.getElementById('contenedor-peliculas');
 const contenedorTitulos = document.getElementById('contenedor-titulos');
 const botonMostrarTitulos = document.getElementById('mostrar-titulos');
 const contenedorGeneros = document.getElementById('contenedor-generos');
+const botonMostrarAnimacion = document.getElementById('mostrarAnimacion');
+const botonMonstrarCienciaFiccion = document.getElementById('mostrarCienciaFiccion');
+const botonMostrarAccion = document.getElementById('mostrarAccion');
+const botonMostrarAnime = document.getElementById('mostrarAnime');
 
 // Cargar el JSON y mostrar las películas
 fetch('peliculas.json')
@@ -36,7 +40,48 @@ function mostrarGenero(){
     let htmlContent = '';
     for (let i = 0; i < window.peliculas.length; i++) {
         if(window.peliculas[i].genero === genero){
-            htmlContent += `<p>${window.peliculas[i].titulo}</p>`;
+            htmlContent += `<p><strong>${window.peliculas[i].titulo}</strong> - Año: ${window.peliculas[i].año}, Género: ${window.peliculas[i].genero}</p>`;
+        }
+    }
+    contenedorGeneros.innerHTML = htmlContent;
+}
+
+
+function mostrarAnimacion(){
+    let htmlContent = '';
+    for (let i = 0; i < window.peliculas.length; i++) {
+        if(window.peliculas[i].genero === "Animación"){
+            htmlContent += `<p><strong>${window.peliculas[i].titulo}</strong> - Año: ${window.peliculas[i].año}, Género: ${window.peliculas[i].genero}</p>`;
+        }
+    }
+    contenedorGeneros.innerHTML = htmlContent;    
+}
+
+function mostrarCienciaFiccion(){
+    let htmlContent = '';
+    for (let i = 0; i < window.peliculas.length; i++) {
+        if(window.peliculas[i].genero === "Ciencia Ficcion"){
+            htmlContent += `<p><strong>${window.peliculas[i].titulo}</strong> - Año: ${window.peliculas[i].año}, Género: ${window.peliculas[i].genero}</p>`;
+        }
+    }
+    contenedorGeneros.innerHTML = htmlContent;    
+}
+
+function mostrarAccion(){
+    let htmlContent = '';
+    for (let i = 0; i < window.peliculas.length; i++) {        
+        if(window.peliculas[i].genero === "Acción"){
+            htmlContent += `<p><strong>${window.peliculas[i].titulo}</strong> - Año: ${window.peliculas[i].año}, Género: ${window.peliculas[i].genero}</p>`;
+        }
+    }
+    contenedorGeneros.innerHTML = htmlContent;    
+}
+
+function mostrarAnime(){
+    let htmlContent = '';
+    for (let i = 0; i < window.peliculas.length; i++) {        
+        if(window.peliculas[i].genero === "Anime"){
+            htmlContent += `<p><strong>${window.peliculas[i].titulo}</strong> - Año: ${window.peliculas[i].año}, Género: ${window.peliculas[i].genero}</p>`;
         }
     }
     contenedorGeneros.innerHTML = htmlContent;

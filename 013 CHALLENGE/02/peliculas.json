@@ -1,18 +1,42 @@
 [
-    {
-      "titulo": "El Rey León",
-      "año": 1994,
-      "genero": "Animación"
-    },
-    {
-      "titulo": "Matrix",
-      "año": 1999,
-      "genero": "Ciencia Ficción"
-    },
-    {
-      "titulo": "Inception",
-      "año": 2010,
-      "genero": "Acción"
-    }
-  ]
-  
+  {
+    "titulo": "El Rey León",
+    "año": 1994,
+    "genero": "Animación"
+  },
+  {
+    "titulo": "Matrix",
+    "año": 1999,
+    "genero": "Ciencia Ficción"
+  },
+  {
+    "titulo": "Inception",
+    "año": 2010,
+    "genero": "Acción"
+  },
+  {
+    "titulo": "El viaje de Chihiro",
+    "año": 2001,
+    "genero": "Anime"
+  },
+  {
+    "titulo": "Akira",
+    "año": 1988,
+    "genero": "Anime"
+  },
+  {
+    "titulo": "Your Name",
+    "año": 2016,
+    "genero": "Anime"
+  },
+  {
+    "titulo": "Ghost in the Shell",
+    "año": 1995,
+    "genero": "Anime"
+  },
+  {
+    "titulo": "Perfect Blue",
+    "año": 1997,
+    "genero": "Anime"
+  }
+]

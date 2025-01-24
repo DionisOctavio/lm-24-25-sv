@@ -30,6 +30,12 @@ body {
     cursor: pointer;
   }
   
+  .contenedor-botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   button:hover {
     background-color: #0056b3;
   }

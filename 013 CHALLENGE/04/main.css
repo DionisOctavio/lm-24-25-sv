@@ -12,7 +12,20 @@ body {
     padding: 1rem 0;
 }
 
-input {
+.header h1 {
+    color: red;
+}
+
+input#buscador {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 6px;
+    border: red 2px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input#cargarTodas,#ordenar {
     background-color: #222222;
     color: #ffffff;
     padding: 6px;
@@ -95,7 +108,8 @@ select:hover {
 }
 
 .targeta {
-    background-color: transparent;}
+    background-color: transparent;
+}
 
 .targeta img {
     width: 100%;

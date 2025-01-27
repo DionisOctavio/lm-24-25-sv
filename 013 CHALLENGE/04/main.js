@@ -4,6 +4,7 @@ const targetasPeliculas = document.getElementById('targetas');
 const botonesFiltro = document.getElementById('filtro');
 const botonOrdenarAnyo = document.getElementById('ordenar');
 const desplegableGeneros = document.getElementById('genero');
+const botonBuscar = document.getElementById('buscador');
 let ascendente = true;
 
 
@@ -113,6 +114,13 @@ function crearDesplegable() {
 function filtrarPeliculas(genero) {
     cargarPeliculas().then(peliculas => {
         const peliculasFiltradas = peliculas.filter(pelicula => pelicula.genero.toLowerCase() === genero.toLowerCase());
+        pintarPeliculas(peliculasFiltradas);
+    });
+}
+
+function buscar(){
+    cargarPeliculas().then(peliculas => {
+        const peliculasFiltradas = peliculas.filter(pelicula => pelicula.titulo.toLowerCase().includes(botonBuscar.value.toLowerCase()));
         pintarPeliculas(peliculasFiltradas);
     });
 }

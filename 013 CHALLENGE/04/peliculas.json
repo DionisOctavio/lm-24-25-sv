@@ -40,5 +40,21 @@
   { "titulo": "Blame!", "año": 2017, "genero": "Ciencia ficción", "imagen": "https://es.web.img3.acsta.net/pictures/17/04/18/14/30/521025.jpg" },
   { "titulo": "Bubble", "año": 2022, "genero": "Fantasía", "imagen": "https://m.media-amazon.com/images/M/MV5BNjMzNmFjZWItMjZlZS00OTgwLTgwMmMtYTc5MTA0MTY2MGEwXkEyXkFqcGc@._V1_.jpg" },
   { "titulo": "Whisper of the Heart", "año": 1995, "genero": "Romance", "imagen": "https://m.media-amazon.com/images/M/MV5BNGE2NTc3Y2YtZTQ5Zi00NzZkLWIyNDUtZmZkZjQ2NWU0ZTIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
-  { "titulo": "Mary and the Witch's Flower", "año": 2017, "genero": "Fantasía", "imagen": "https://m.media-amazon.com/images/M/MV5BNjkwMWYzOGMtNDc3Mi00MzVhLWE2ZWUtMzJhY2Y4NDdmMWNiXkEyXkFqcGc@._V1_.jpg" }
+  { "titulo": "Mary and the Witch's Flower", "año": 2017, "genero": "Fantasía", "imagen": "https://m.media-amazon.com/images/M/MV5BNjkwMWYzOGMtNDc3Mi00MzVhLWE2ZWUtMzJhY2Y4NDdmMWNiXkEyXkFqcGc@._V1_.jpg" },
+  { "titulo": "Belle", "año": 2021, "genero": "Fantasía", "imagen": "https://pics.filmaffinity.com/Belle-226916410-large.jpg" },
+  { "titulo": "Josee, the Tiger and the Fish", "año": 2020, "genero": "Romance", "imagen": "https://m.media-amazon.com/images/M/MV5BMTE4OTkyYzYtMDljNy00MDQ3LWI1NGMtODI3YjAwOWNkY2I1XkEyXkFqcGc@._V1_.jpg" },
+  { "titulo": "The First Slam Dunk", "año": 2022, "genero": "Deportes", "imagen": "https://pics.filmaffinity.com/The_First_Slam_Dunk-142097472-large.jpg" },
+  { "titulo": "Dragon Ball Super: Super Hero", "año": 2022, "genero": "Acción", "imagen": "https://pics.filmaffinity.com/Dragon_Ball_Super_Super_Hero-181561937-large.jpg" },
+  { "titulo": "Jujutsu Kaisen 0", "año": 2021, "genero": "Sobrenatural", "imagen": "https://m.media-amazon.com/images/M/MV5BMzNhZTdmNDYtNTA0NC00MmNmLWIzYjUtNjg5NzNlYWQ0N2E5XkEyXkFqcGc@._V1_.jpg" },
+  { "titulo": "The Boy and the Heron", "año": 2023, "genero": "Fantasía", "imagen": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_.jpg" },
+  { "titulo": "Sword Art Online: Progressive - Scherzo of Deep Night", "año": 2022, "genero": "Aventura", "imagen": "https://a.storyblok.com/f/178900/1064x1596/13f8596b82/sword-art-online-progressive-scherzo-of-deep-night-key-visual.png/m/filters:quality(95)format(webp)" },
+  { "titulo": "Made in Abyss: Dawn of the Deep Soul", "año": 2020, "genero": "Aventura", "imagen": "https://m.media-amazon.com/images/M/MV5BY2QwZGNkYTktOGFlMi00MzgyLWFkMWMtMmFjZTUwZjFlMGI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+  { "titulo": "Psycho-Pass: Providence", "año": 2023, "genero": "Ciencia ficción", "imagen": "https://pics.filmaffinity.com/Psycho_Pass_Providence-420670019-large.jpg" },
+  { "titulo": "One Piece Film: Red", "año": 2022, "genero": "Aventura", "imagen": "https://m.media-amazon.com/images/M/MV5BNTdjY2YxYTQtNjIzYy00ZDczLThhNTUtNmY2ZWNkZjZiMTYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+  { "titulo": "Suzume no Tojimari", "año": 2022,  "genero": "Fantasía", "imagen": "https://pics.filmaffinity.com/Suzume-732133086-large.jpg" },
+  { "titulo": "Sword Art Online: Ordinal Scale", "año": 2017, "genero": "Acción", "imagen": "https://m.media-amazon.com/images/M/MV5BNDYxNmUyNDctMmQ5Zi00OTM0LWI1ZjktN2Y5MzliZjU5MmNhXkEyXkFqcGc@._V1_.jpg" },
+  { "titulo": "Sword Art Online: Progressive - Aria of a Starless Night", "año": 2021, "genero": "Acción", "imagen": "https://pics.filmaffinity.com/Sword_Art_Online_Progressive_Aria_of_a_Starless_Night-341288443-large.jpg" },
+  { "titulo": "SPY×FAMILY CODE WHITE", "año": 2022, "genero": "Comedia", "imagen": "https://m.media-amazon.com/images/M/MV5BNDIyMzM4NDgtMzA4Mi00ODFhLThjOTItYjk1N2RkZWViMTJmXkEyXkFqcGc@._V1_.jpg" },
+  { "titulo": "That Time I Got Reincarnated as a Slime: Scarlet Bond", "año": 2022, "genero": "Fantasía", "imagen": "https://m.media-amazon.com/images/M/MV5BM2IwMDM4MDgtZWU2Zi00YjA2LWJhOTItNGUzMWM1N2E4ZTk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
+  { "titulo": "Violet Evergarden: The Movie", "año": 2020, "genero": "Drama", "imagen": "https://pics.filmaffinity.com/Violet_Evergarden_La_pelaicula-490162315-large.jpg" }
 ]

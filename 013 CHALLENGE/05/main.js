@@ -22,6 +22,9 @@ function getPeliculas(){
             (data) => {
                 let idPelicula = data[0].id
                 let tituloPelicula = data[0].titulo
+
+                const titulo = document.getElementById("titulo");
+                titulo.textContent = tituloPelicula;
             }
         )
         .catch();

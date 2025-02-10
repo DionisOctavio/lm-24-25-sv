@@ -5,7 +5,7 @@ const botonesFiltro = document.getElementById('filtro');
 const botonOrdenarAnyo = document.getElementById('ordenar');
 const desplegableGeneros = document.getElementById('genero');
 const botonBuscar = document.getElementById('buscador');
-let ascendente = true;
+let ascendente = false;
 
 
 function cargarPeliculas() {

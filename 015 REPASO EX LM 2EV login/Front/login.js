@@ -13,6 +13,9 @@ document.getElementById('login-btn').addEventListener('click', async function ()
         const data = await response.json();
 
         if (response.ok) {
+            localStorage.setItem('id_usuario', data.user.id);
+            localStorage.setItem('usuario', data.user.usuario);
+            window.location.href = 'index.html';
             alert(data.message); 
         } else {
             alert(data.message);  

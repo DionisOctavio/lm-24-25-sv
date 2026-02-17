@@ -1,0 +1,248 @@
+[
+    {
+      "titulo": "El viaje de Chihiro",
+      "año": 2001,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81zL2G+cR-L._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Akira",
+      "año": 1988,
+      "genero": "Ciencia ficción",
+      "imagen": "https://m.media-amazon.com/images/I/51CT9I4gRHL._AC_.jpg"
+    },
+    {
+      "titulo": "Your Name",
+      "año": 2016,
+      "genero": "Romance",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Ghost in the Shell",
+      "año": 1995,
+      "genero": "Ciencia ficción",
+      "imagen": "https://m.media-amazon.com/images/I/51w8JYQeYJL._AC_.jpg"
+    },
+    {
+      "titulo": "Perfect Blue",
+      "año": 1997,
+      "genero": "Thriller psicológico",
+      "imagen": "https://m.media-amazon.com/images/I/51NpxXf0i+L._AC_.jpg"
+    },
+    {
+      "titulo": "La princesa Mononoke",
+      "año": 1997,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81p+xe8cbnL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Mi vecino Totoro",
+      "año": 1988,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81eC+X4A5kL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "El castillo ambulante",
+      "año": 2004,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81r+LN6GfPL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Nausicaä del Valle del Viento",
+      "año": 1984,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81+Qf+QlnPL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Ponyo en el acantilado",
+      "año": 2008,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81A+g0l9HLL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "La tumba de las luciérnagas",
+      "año": 1988,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81nC+9e+HPL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "A Silent Voice",
+      "año": 2016,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81t2CVWEsUL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Weathering with You",
+      "año": 2019,
+      "genero": "Romance",
+      "imagen": "https://m.media-amazon.com/images/I/81QxkO-7ELL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "5 centímetros por segundo",
+      "año": 2007,
+      "genero": "Romance",
+      "imagen": "https://m.media-amazon.com/images/I/71qG+e7eYXL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "El niño y la bestia",
+      "año": 2015,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81-7F9g6YLL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Paprika",
+      "año": 2006,
+      "genero": "Thriller psicológico",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Summer Wars",
+      "año": 2009,
+      "genero": "Ciencia ficción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "El cuento de la princesa Kaguya",
+      "año": 2013,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "La chica que saltaba a través del tiempo",
+      "año": 2006,
+      "genero": "Ciencia ficción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Redline",
+      "año": 2009,
+      "genero": "Acción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Vampire Hunter D: Bloodlust",
+      "año": 2000,
+      "genero": "Horror",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Cowboy Bebop: The Movie",
+      "año": 2001,
+      "genero": "Acción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Tokyo Godfathers",
+      "año": 2003,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Laputa: El castillo en el cielo",
+      "año": 1986,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81QfQfQlnPL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Porco Rosso",
+      "año": 1992,
+      "genero": "Aventura",
+      "imagen": "https://m.media-amazon.com/images/I/81r+LN6GfPL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Colorful",
+      "año": 2010,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81A+g0l9HLL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Jin-Roh: The Wolf Brigade",
+      "año": 1999,
+      "genero": "Thriller",
+      "imagen": "https://m.media-amazon.com/images/I/81nC+9e+HPL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Wolf Children",
+      "año": 2012,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81t2CVWEsUL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Expelled from Paradise",
+      "año": 2014,
+      "genero": "Ciencia ficción",
+      "imagen": "https://m.media-amazon.com/images/I/81QxkO-7ELL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "The Garden of Words",
+      "año": 2013,
+      "genero": "Romance",
+      "imagen": "https://m.media-amazon.com/images/I/71qG+e7eYXL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Children Who Chase Lost Voices",
+      "año": 2011,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81-7F9g6YLL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Sword of the Stranger",
+      "año": 2007,
+      "genero": "Acción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Mind Game",
+      "año": 2004,
+      "genero": "Experimental",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Belladonna of Sadness",
+      "año": 1973,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Liz and the Blue Bird",
+      "año": 2018,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "The Anthem of the Heart",
+      "año": 2015,
+      "genero": "Drama",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Promare",
+      "año": 2019,
+      "genero": "Acción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Blame!",
+      "año": 2017,
+      "genero": "Ciencia ficción",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Bubble",
+      "año": 2022,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Whisper of the Heart",
+      "año": 1995,
+      "genero": "Romance",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    },
+    {
+      "titulo": "Mary and the Witch's Flower",
+      "año": 2017,
+      "genero": "Fantasía",
+      "imagen": "https://m.media-amazon.com/images/I/81t-8Fcf5LL._AC_SY679_.jpg"
+    }
+  ]
